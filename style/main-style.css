@@ -64,3 +64,15 @@ header {
 .social {
   margin-right: 60px;
 }
+#search {
+  background-image: url(../images/header/search.png);
+  padding: 5px;
+  background-repeat: no-repeat;
+  background-position: 3% 50%;
+  border: #fbc5a6 solid;
+  border-radius: 10px;
+  outline: none;
+}
+#search::placeholder {
+  padding-left: 20px;
+}
