@@ -4,6 +4,11 @@
   margin: 0%;
   padding: 0%;
 }
+header {
+  background-color: #fefefe;
+  border: solid rgb(230, 230, 230);
+  position: sticky;
+}
 .main-logo {
   display: flex;
   margin-left: 120px;
@@ -63,6 +68,7 @@ header {
 }
 .social {
   margin-right: 60px;
+  word-spacing: 5px;
 }
 #search {
   background-image: url(../images/header/search.png);
@@ -72,7 +78,25 @@ header {
   border: #fbc5a6 solid;
   border-radius: 10px;
   outline: none;
+  width: 235px;
 }
 #search::placeholder {
   padding-left: 20px;
+}
+.slider {
+  background-image: url(/images/background\ pic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1440px;
+  height: 496px;
+  top: 56px;
+}
+.slider h1 {
+  font-size: 55px;
+  text-align: center;
+}
+.slider p {
+  font-size: 22px;
+  text-align: center;
+  justify-items: center;
 }
