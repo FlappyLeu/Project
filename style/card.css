@@ -7,7 +7,6 @@
 }
 
 header {
-  max-width: 1440px;
   background-color: #fefefe;
   border: solid rgb(255, 255, 255);
   position: sticky;
@@ -117,8 +116,9 @@ header {
 }
 .mstarsfd {
   margin-top: 5%;
+  display: block !important;
   text-align: right;
-  justify-content: end;
+  margin-right: 10%;
 }
 .mstarsfd h2 {
   font-weight: 600;
@@ -137,4 +137,12 @@ header {
   display: block;
   width: 100%;
   border-top: #f17228 solid 2px;
+}
+.base {
+  display: flex;
+  justify-content: flex-end;
+}
+.base div {
+  display: flex;
+  justify-content: space-between;
 }
