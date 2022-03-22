@@ -1,25 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
 * {
-  margin: 0%;
-  padding: 0%;
+  box-sizing: border-box;
 }
+
 header {
+  max-width: 1440px;
   background-color: #fefefe;
-  border: solid rgb(230, 230, 230);
+  border: solid rgb(255, 255, 255);
   position: sticky;
+  margin: 0%;
 }
 .main-logo {
   display: flex;
   margin-left: 120px;
   height: 50px;
-  max-width: auto;
+  max-width: 1440px;
+  margin: 0%;
 }
 .main-logo p {
   display: flex;
   align-items: center;
-  margin-left: 10px;
   font-family: "Poppins", sans-serif;
+  margin: 0%;
 }
 li,
 a {
@@ -28,24 +33,30 @@ a {
   font-size: 16px;
   color: black;
   list-style: none;
+  margin: 0%;
 }
 header p {
   color: #f17228;
+  margin: 0%;
 }
 .child a {
   color: #f17228;
   text-decoration: none;
+  margin: 0%;
 }
 .nav-links a {
   text-transform: uppercase;
   text-decoration: none;
+  margin: 0%;
 }
 .nav-links {
   list-style: none;
+  margin: 0%;
 }
 .nav-links li {
   display: inline-block;
   padding: 0px 20px;
+  margin: 0%;
 }
 .nav-links li a {
   transition: all 0.3s ease 0s;
@@ -66,6 +77,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0%;
 }
 .social {
   margin-right: 60px;
@@ -84,7 +96,8 @@ header {
 #search::placeholder {
   padding-left: 20px;
 }
-.slider {
+.banner1 {
+  display: flex;
   background-image: url(/images/background\ pic.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,11 +106,35 @@ header {
   height: 496px;
   top: 56px;
 }
-.slider h1 {
-  font-size: 55px;
-  text-align: center;
+.meal1 {
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 100%;
+  width: 588px;
+  left: 133px;
+  top: 104px;
+  border-radius: 0px;
 }
-.slider p {
-  font-size: 22px;
+.mstarsfd {
+  margin-top: 5%;
+  text-align: right;
+  justify-content: end;
+}
+.mstarsfd h2 {
+  font-weight: 600;
+  font-size: 55px;
+  color: #f17228;
   text-align: center;
+  font-family: "Poppins", sans-serif;
+  line-height: 49px;
+  text-align: right;
+}
+.mstarsfd small {
+  font-family: "Comfortaa", cursive;
+  font-size: 15px;
+}
+.mstarsfd span {
+  display: block;
+  width: 100%;
+  border-top: #f17228 solid 2px;
 }
