@@ -5,12 +5,15 @@
 * {
   box-sizing: border-box;
 }
-
+body {
+  max-width: 1440px;
+  margin: auto;
+}
 header {
   background-color: #fefefe;
   border: solid rgb(255, 255, 255);
   position: sticky;
-  margin: 0%;
+  margin: auto;
 }
 .main-logo {
   display: flex;
@@ -145,4 +148,46 @@ header {
 .base div {
   display: flex;
   justify-content: space-between;
+}
+.cate {
+  background-image: url(/images/back.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+}
+.labe {
+  border: solid #fff;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  width: 1200px;
+  height: 152px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 0px #f7f1f1;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 120px;
+  margin-right: 120px;
+  line-height: 5px;
+}
+.labe h3 {
+  font-size: 18px;
+  font-weight: 700 bold;
+}
+.labe p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.labe img {
+  width: 60px;
+  height: 60px;
+}
+.labe-1 {
+  display: flex;
+}
+.labe-2 {
+  display: flex;
+}
+.labe-3 {
+  display: flex;
 }
