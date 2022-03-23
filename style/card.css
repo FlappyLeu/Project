@@ -154,7 +154,12 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 20px;
+  top: 600px;
+}
+.frame {
+  background: linear-gradient(#f17228 rgba(255, 255, 255, 0) 100%);
+  height: 248px;
+  display: grid;
 }
 .labe {
   border: solid #fff;
@@ -163,12 +168,12 @@ header {
   width: 1200px;
   height: 152px;
   border-radius: 10px;
-  box-shadow: 5px 5px 10px 0px #f7f1f1;
+  align-items: center;
+  box-shadow: 1px 1px 10px 1px#f7f1f1;
   display: flex;
   justify-content: space-around;
-  margin-left: 120px;
-  margin-right: 120px;
   line-height: 5px;
+  background-color: #fff;
 }
 .labe h3 {
   font-size: 18px;
