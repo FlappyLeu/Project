@@ -28,3 +28,12 @@
   line-height: 20px;
   color: black;
 }
+.section1 {
+  display: flex;
+  justify-content: space-between;
+}
+.meals {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
