@@ -1,12 +1,30 @@
-.sale {
-  width: 1440px;
-  height: 448px;
-  background-color: aqua;
+#slider {
+  background-image: url("../images/background/sliderBack.png");
+  background-size: 100%;
+  height: 496px;
+  width: 100%;
 }
-.fra {
-  border: 0px solid;
-  background-color: #f17228;
-  width: 11px;
-  height: 30px;
-  margin: auto;
+.banner1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: right;
+  color: #f17228;
+}
+.banner1 h2 {
+  font-size: 55px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 50px;
+}
+.sliderhr {
+  width: 383px;
+  height: 0px;
+  border: 2px solid rgba(241, 114, 40, 0.6);
+}
+.banner1 p {
+  font-family: "Comfortaa", cursive;
+  font-size: 18px;
+  line-height: 20px;
+  color: black;
 }

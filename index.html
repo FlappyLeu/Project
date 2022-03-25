@@ -6,73 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food delivery project | Prototype</title>
     <link rel="stylesheet" href="/style/card.css" />
-    <link rel="stylesheet" href="/style/head.css" />
-    <link rel="stylesheet" href="/style/base.css" />
-    <link rel="stylesheet" href="/style/category.css" />
+    <link rel="stylesheet" href="/style/header.css" />
     <link rel="stylesheet" href="/style/main.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/style/footer.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style/base.css" />
   </head>
   <body>
-    <header>
+    <header class="contents">
       <div class="main-logo">
-        <img class="logo" src="/images/header/iamage.png" alt="logo" />
+        <img class="logo" src="./images/icon/iamage.svg" alt="logo" />
         <p>Food delivery</p>
       </div>
-      <ul class="nav-links">
-        <span class="child"
-          ><li><a href="#">нүүр</a></li></span
-        >
-        <li><a href="#">хоолны цэс</a></li>
-        <li><a href="#">хүргэлт</a></li>
-      </ul>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#">нүүр</a></li>
+          <li><a href="#">хоолны цэс</a></li>
+          <li><a href="#">хүргэлт</a></li>
+        </ul>
+      </div>
       <div class="search">
         <input type="search" name="search" id="search" placeholder="Хайх" />
       </div>
       <div class="social">
-        <img src="/images/header/busket icon.png" alt="" />
+        <img src="/images/icon/busket icon.png" alt="" />
         <a class="social-link-1" href="#">Сагс</a>
-        <img src="/images/header/user icon.png" alt="" />
+        <img src="/images/icon/user icon.png" alt="" />
         <a class="social-link-2" href="#">Нэвтрэх</a>
       </div>
     </header>
-    <div class="base">
-      <div class="banner1">
-        <div class="meal1">
-          <img src="/images/mealpic.png" alt="mealpic" />
+    <div id="slider">
+      <div class="banner1 contents">
+        <div>
+          <img src="./images/background/mealpic.png" alt="mealpic" />
         </div>
-        <div class="mstarsfd">
+        <div>
           <h2>
             Mstars Food <br />
             delivery
           </h2>
-          <span></span><br />
-          <small
-            >Хосгүй амтыг хормын дотор <br />
-            хүргэж өгнө</small
-          >
+          <hr class="sliderhr" />
+          <p>
+            Хосгүй амтыг хормын дотор <br />
+            хүргэж өгнө
+          </p>
         </div>
       </div>
     </div>
-    <div class="cate">
-      <div class="frame">
+    <div class="info">
+      <div class="infoPanel contents">
         <div class="labe">
-          <div class="labe-1">
-            <img src="/images/delivery1.svg" alt="tsag" /> &nbsp; &nbsp;
+          <div class="labeList">
+            <img src="/images/icon/tsag.png" alt="tsag" />
             <div>
               <h3>Шуурхай хүргэлт</h3>
               <p>30 минутанд таны гарт.</p>
             </div>
           </div>
-          <div class="labe-2">
-            <img src="/images/delivery2.svg" alt="nom" />&nbsp; &nbsp;
+          <div class="labeList">
+            <img src="/images/icon/nom.png" alt="nom" />
             <div>
               <h3>Эрүүл баталгаат орц</h3>
               <p>Хамгийн чанартайг танд.</p>
             </div>
           </div>
-          <div class="labe-3">
-            <img src="/images/delivery3.svg" alt="hool" />&nbsp; &nbsp;
+          <div class="labeList">
+            <img src="/images/icon/hool.png" alt="hool" />
             <div>
-              &nbsp; &nbsp;
               <h3>Өргөн сонголт</h3>
               <p>Хамгийн онцгойг танд.</p>
             </div>
@@ -80,10 +92,144 @@
         </div>
       </div>
     </div>
-    <div class="sale">
-      <div class="fra">
-        <div class="hool"></div>
+    <div class="category">
+      <div>
+        <h2>Хямдралтай</h2>
+      </div>
+      <div class="btn">
+        <input type="button" id="btn" value="бүгдийг харах >" />
       </div>
     </div>
+    <div class="hool">
+      <div class="dishes">
+        <img src="/images/food/04.png" alt="icecream" />
+        <h3>Зайрмаг</h3>
+        <span>4,760₮</span>
+        <del>6,800₮</del>
+      </div>
+      <div class="dishes">
+        <img src="/images/food/02.png" alt="icecream" />
+        <h3>Панкэйк</h3>
+        <span>4,800₮</span>
+        <del>6,800₮</del>
+      </div>
+      <div class="dishes">
+        <img src="/images/food/03.png" alt="icecream" />
+        <h3>Өглөөний хоол</h3>
+        <span>4,800₮</span>
+        <del>6,800₮</del>
+      </div>
+      <div class="dishes">
+        <img src="/images/food/01.png" alt="icecream" />
+        <h3>Банана сэндвич</h3>
+        <span>4,800₮</span>
+        <del>6,800₮</del>
+      </div>
+    </div>
+    <div class="both">
+      <div class="category">
+        <div>
+          <h2>Үндсэн хоол</h2>
+        </div>
+        <div class="btn">
+          <input type="button" id="btn" value="бүгдийг харах >" />
+        </div>
+      </div>
+      <div class="hool">
+        <div class="dishes">
+          <img src="/images/food/1.png" alt="1" />
+          <h3>Салмон загас</h3>
+          <span>11,800₮</span>
+        </div>
+        <div class="dishes">
+          <img src="/images/food/2.png" alt="2" />
+          <h3>Бөөрөнхий мах</h3>
+          <span>14,000₮</span>
+        </div>
+        <div class="dishes">
+          <img src="/images/food/3.png" alt="3" />
+          <h3>Самрын нухаш</h3>
+          <span>9,800₮</span>
+        </div>
+        <div class="dishes">
+          <img src="/images/food/4.png" alt="4" />
+          <h3>Чикен бургер</h3>
+          <span>14,000₮</span>
+        </div>
+      </div>
+    </div>
+    <div class="both">
+      <div class="category">
+        <div>
+          <h2>Салад ба зууш</h2>
+        </div>
+        <div class="btn">
+          <input type="button" id="btn" value="бүгдийг харах >" />
+        </div>
+      </div>
+      <div class="hool">
+        <div class="dishes">
+          <img src="/images/food/5.png" alt="5" />
+          <h3>Детокс салад</h3>
+          <span>6,800₮</span>
+        </div>
+        <div class="dishes">
+          <img src="/images/food/6.png" alt="6" />
+          <h3>Кобб салад</h3>
+          <span>6,800₮</span>
+        </div>
+        <div class="dishes">
+          <img src="/images/food/7.png" alt="7" />
+          <h3>Авокадо салад</h3>
+          <span>6,800₮</span>
+        </div>
+        <div class="dishes">
+          <img src="/images/food/8.png" alt="8" />
+          <h3>Сэндвич</h3>
+          <span>4,800₮</span>
+        </div>
+      </div>
+    </div>
+    <div class="last">
+      <div class="both">
+        <div class="category">
+          <div>
+            <h2>Амттан</h2>
+          </div>
+          <div class="btn">
+            <input type="button" id="btn" value="бүгдийг харах >" />
+          </div>
+        </div>
+        <div class="hool">
+          <div class="dishes">
+            <img src="/images/food/9.png" alt="9" />
+            <h3>Донатс</h3>
+            <span>5,800₮</span>
+          </div>
+          <div class="dishes">
+            <img src="/images/food/10.png" alt="10" />
+            <h3>Орео дессерт</h3>
+            <span>5,800₮</span>
+          </div>
+          <div class="dishes">
+            <img src="/images/food/11.png" alt="11" />
+            <h3>Вафли</h3>
+            <span>5,800₮</span>
+          </div>
+          <div class="dishes">
+            <img src="/images/food/12.png" alt="12" />
+            <h3>Макарон</h3>
+            <span>3,800₮</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="features"></div>
+      <div class="menu"></div>
+      <div class="socia"></div>
+      <div class="copy"></div>
+      <div class="terms"></div>
+    </footer>
   </body>
 </html>
