@@ -37,3 +37,24 @@
   display: flex;
   justify-content: space-between;
 }
+#butn {
+  color: #f17228;
+  border: #fff solid;
+  height: 40px;
+  width: 60px;
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgba(251, 197, 166, 0.2);
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.btns div {
+  width: 21px;
+  margin-left: 30px;
+  height: 8px;
+  background: #f17228;
+  border-radius: 5px;
+}
