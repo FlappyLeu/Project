@@ -6,22 +6,31 @@ footer {
   width: 100%;
 }
 .features.contents {
-  display: flex;
   font-family: "Poppins", sans-serif;
   margin-top: 30px;
 }
+.top {
+  display: flex;
+}
 .logo {
   display: flex;
+}
+.line {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 12px;
+  max-width: 1440px;
 }
 .logo h3 {
   color: #fff;
   font-weight: 700 bold;
   font-size: 18px;
-  margin-top: 20px;
+  margin-top: 30px;
   padding-left: 10px;
 }
 .logo img {
-  margin-top: 20px;
+  margin-top: 30px;
   width: 40px;
   height: 40px;
 }
@@ -37,4 +46,37 @@ footer {
 .contacts {
   margin-left: 170px;
   color: #fff;
+}
+.socia img {
+  margin-left: 15px;
+}
+.socia p {
+  margin-left: 45px;
+  color: #fff;
+  font-size: 12px;
+}
+.bot hr {
+  margin-top: 120px;
+  color: white;
+  width: 1440px;
+  height: 0px;
+  left: 120px;
+}
+.pics {
+  margin-left: 40px;
+}
+.terms {
+  display: flex;
+}
+.terms a {
+  text-decoration: none;
+}
+.terms p {
+  color: white;
+  font-size: 12px;
+}
+.copy p {
+  line-height: 16px;
+  text-align: right;
+  margin-right: -20px;
 }
