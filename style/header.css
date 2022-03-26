@@ -38,7 +38,9 @@ header p {
   display: inline-block;
   padding: 0px 20px;
 }
-
+#nuur {
+  color: #f17228;
+}
 .nav-links li a {
   transition: all 0.3s ease 0s;
 }
@@ -71,4 +73,37 @@ header p {
 }
 #search::placeholder {
   padding-left: 20px;
+}
+#butn {
+  color: #f17228;
+  border: #fff solid;
+  height: 40px;
+  width: 60px;
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgba(251, 197, 166, 0.2);
+}
+.btns {
+  display: flex;
+}
+.nxt1 {
+  width: 21px;
+  height: 8px;
+  background: #f17228;
+  border-radius: 5px;
+  margin-left: 950px;
+}
+.nxt2 {
+  width: 10px;
+  height: 8px;
+  background: #fbc5a6;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.nxt3 {
+  width: 10px;
+  height: 8px;
+  background: #fbc5a6;
+  border-radius: 5px;
+  margin-left: 10px;
 }
