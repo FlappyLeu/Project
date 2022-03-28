@@ -74,3 +74,40 @@
   background: #fbc5a6;
   margin-left: 5px;
 }
+.info {
+  background: linear-gradient(
+    179.24deg,
+    #f17228 -90.18%,
+    rgba(255, 255, 255, 0) 41.19%
+  );
+  padding-top: 40px;
+}
+.infoPanel {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  height: 152px;
+  width: 1440px;
+  border-radius: 30px;
+}
+.labe {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.labeList {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  line-height: 2px;
+}
+.labeList h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+.labeList p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.labeList img {
+  margin-right: 10px;
+}

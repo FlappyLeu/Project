@@ -35,6 +35,7 @@ footer {
   height: 40px;
 }
 .menu {
+  text-decoration: underline;
   margin-left: 200px;
   font-weight: 600 bold;
   font-size: 16px;
@@ -46,6 +47,7 @@ footer {
 .contacts {
   margin-left: 170px;
   color: #fff;
+  text-decoration: underline;
 }
 .socia img {
   margin-left: 15px;
