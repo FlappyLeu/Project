@@ -7,3 +7,11 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+@media (max-width: 1200px) {
+  .contents {
+    max-width: 850px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

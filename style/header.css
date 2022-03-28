@@ -16,13 +16,11 @@ header {
   font-family: "Poppins", sans-serif;
   margin-left: 5px;
 }
-li,
 a {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: black;
-  list-style: none;
 }
 header p {
   color: #f17228;
@@ -30,42 +28,43 @@ header p {
 .nav-links a {
   text-transform: uppercase;
   text-decoration: none;
+  padding-left: 20px;
 }
 .nav-links {
-  list-style: none;
-}
-.nav-links li {
-  display: inline-block;
-  padding: 0px 20px;
+  display: flex;
 }
 #nuur {
   color: #f17228;
 }
-.nav-links li a {
+.nav-links a {
   transition: all 0.3s ease 0s;
 }
-.nav-links li a:hover {
+.nav-links a:hover {
   color: #f17228;
   font-weight: 700;
 }
-
-.social-link-1 {
+.social {
+  display: flex;
+  padding-left: 10px;
+}
+.social img {
+  padding-left: 20px;
+}
+.social1 {
   color: #f17228;
   text-decoration: none;
 }
-.social-link-2 {
+.social2 {
   text-decoration: none;
   color: #f17228;
 }
 .social a {
   transition: all 0.5s ease 0.1s;
+  padding-left: 5px;
 }
 .social a:hover {
   color: #f17228;
   font-weight: 700;
-}
-.social {
-  word-spacing: 5px;
 }
 #search {
   background-image: url(../images/icon/search.png);
@@ -77,4 +76,28 @@ header p {
   outline: none;
   width: 235px;
   padding-left: 20px;
+}
+#tsearch {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .nav-links a {
+    font-size: 14px;
+  }
+  .social a {
+    display: none;
+  }
+  #tsearch {
+    margin-left: 20px;
+    display: block;
+  }
+  #search {
+    display: none;
+  }
+  .btns {
+    visibility: hidden;
+  }
+  #butn {
+    display: none;
+  }
 }

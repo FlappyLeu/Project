@@ -55,7 +55,6 @@
 }
 .nxt1 {
   width: 21px;
-  /* margin-left: 30px; */
   height: 8px;
   background: #f17228;
   border-radius: 5px;
@@ -86,8 +85,6 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
   border-radius: 30px;
   height: 152px;
-  width: 1440px;
-  border-radius: 30px;
 }
 .labe {
   padding-top: 40px;
@@ -110,4 +107,63 @@
 }
 .labeList img {
   margin-right: 10px;
+}
+#bn {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .banner1 h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+  }
+  .main-logo a {
+    font-size: 14px;
+  }
+  .main-logo p {
+    font-size: 14px;
+  }
+
+  .labeList h3 {
+    font-size: 14px;
+  }
+  .labeList p {
+    font-size: 12px;
+  }
+  .section1 h2 {
+    font-size: 16px;
+  }
+  .banner1 p {
+    font-size: 18px;
+    line-height: 20px;
+    color: black;
+  }
+  .dishes h3 {
+    font-size: 12px;
+  }
+  .dishes span del {
+    font-family: 14px;
+  }
+  .sliderhr {
+    width: 300px;
+    height: 0px;
+    border: 2px solid rgba(241, 114, 40, 0.6);
+  }
+
+  #btn {
+    display: none;
+  }
+  #bn {
+    display: block;
+    color: #f17228;
+    font-size: 20px;
+  }
+  .dishes img {
+    width: 140px;
+    height: 132px;
+  }
+  .sales {
+    visibility: hidden;
+  }
 }

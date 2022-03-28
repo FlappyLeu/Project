@@ -40,7 +40,9 @@ footer {
   font-weight: 600 bold;
   font-size: 16px;
 }
-.menu ul li a {
+.menu a {
+  margin-top: 24px;
+  display: flex;
   text-decoration: none;
   color: #fff;
 }
