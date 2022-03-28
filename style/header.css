@@ -57,7 +57,13 @@ header p {
   text-decoration: none;
   color: #f17228;
 }
-
+.social a {
+  transition: all 0.5s ease 0.1s;
+}
+.social a:hover {
+  color: #f17228;
+  font-weight: 700;
+}
 .social {
   word-spacing: 5px;
 }
@@ -70,7 +76,5 @@ header p {
   border-radius: 10px;
   outline: none;
   width: 235px;
-}
-#search::placeholder {
   padding-left: 20px;
 }
