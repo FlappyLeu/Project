@@ -72,3 +72,39 @@ div {
   text-decoration: underline;
   color: #9c9e969d;
 }
+#search {
+  background-image: url(/images/icon/se.svg);
+  padding: 5px;
+  background-repeat: no-repeat;
+  background-position: 3% 50%;
+  border: #fbc5a6 solid;
+  border-radius: 10px;
+  outline: none;
+  width: 235px;
+  padding-left: 20px;
+}
+
+#tsearch {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .nav-links a {
+    font-size: 14px;
+  }
+  .social a {
+    display: none;
+  }
+  #tsearch {
+    margin-left: 20px;
+    display: block;
+  }
+  #search {
+    display: none;
+  }
+  .btns {
+    visibility: hidden;
+  }
+  #butn {
+    display: none;
+  }
+}

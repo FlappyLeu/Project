@@ -29,6 +29,7 @@ header p {
   text-transform: uppercase;
   text-decoration: none;
   padding-left: 20px;
+  color: black;
 }
 .nav-links {
   display: flex;
