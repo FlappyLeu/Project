@@ -20,29 +20,57 @@
   </head>
   <body>
     <header>
-        <div class="container-xl w-100 p-3">
-            <div class="row align-items-start">
-              <div class="col-sm-3 col-md-3">
-                <img src="/images/icon/logo.image.svg" alt="logo">
-                <a href="/index.html">food delivery</a> 
+      <nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="/images/icon/iamage.svg" alt="logo" /> Food delivery</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">НҮҮР</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ХООЛНЫ ЦЭС</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ХҮРГЭЛТИЙН БҮС</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Хайх"
+                aria-label="Search"
+              />
+              <div class="login d-flex ms-4">
+                <div class="basket">
+                  <img src="/images/icon/basket.svg" alt="basket" /><a href="#"
+                    >сагс</a
+                  >
+                </div>
+                <div class="user">
+                  <img src="/images/icon/user.svg" alt="user" /><a href="#"
+                    >нэвтрэх</a
+                  >
+                </div>
               </div>
-              <div class="col-sm-3 col-md-4">
-              <a href="/index.html">нүүр</a>
-              <a href="#">хоолны цэс</a>
-              <a href="#">хүргэлтийн бүс</a>
-              </div>
-              <div class="col-sm-3 col-md-3">
-                  <img src="/images/icon/se.svg" alt="search">
-                <input type="text" placeholder="хайх">
-              </div>
-              <div class="col-sm-2 col-md-2">
-                <div class="dropdown">
-                    <img src="/images/icon/basket.svg" alt="basket">
-                    <a href="#">сагс</a>
-                    <img src="/images/icon/user.svg" alt="user">
-                    <a href="/pages/login.html">нэвтрэх</a>   
-              </div>
-            </div>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header>
   </body>
 </html>

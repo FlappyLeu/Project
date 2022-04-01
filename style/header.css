@@ -4,6 +4,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .main-logo {
@@ -13,17 +14,16 @@ header {
 .main-logo p {
   display: flex;
   align-items: center;
-  font-family: "Poppins", sans-serif;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 a {
-  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: black;
 }
 header p {
   color: #f17228;
+  margin-top: 15px;
 }
 .nav-links a {
   text-transform: uppercase;
