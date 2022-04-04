@@ -1,0 +1,17 @@
+.navbar-toggler {
+  outline: none;
+  border: 0;
+}
+.navbar-toggler-icon {
+  outline: none;
+  border: 0;
+}
+@media (min-width: 375px) {
+  .navbar-brand a {
+    align-items: center;
+  }
+  .login,
+  .form {
+    display: none;
+  }
+}

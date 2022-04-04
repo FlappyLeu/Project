@@ -46,6 +46,20 @@
   background: rgb(255, 255, 255);
   box-shadow: 0px 0px 10px rgba(251, 197, 166, 0.2);
 }
+.sales {
+  position: absolute;
+  background-color: #f17228;
+  border-radius: 0px 8px 0px 10px;
+  height: 43px;
+  width: 60px;
+}
+
+.sales p {
+  display: flex;
+  color: #fff;
+  /* align-self: center; */
+  justify-content: center;
+}
 .btns {
   display: flex;
   justify-content: center;
@@ -91,6 +105,13 @@
   display: flex;
   justify-content: space-around;
 }
+.dishes del {
+  font-weight: lighter;
+}
+.dishes span {
+  font-weight: 600;
+  color: #f17228;
+}
 .labeList {
   align-items: center;
   text-align: center;
@@ -111,7 +132,11 @@
 #bn {
   display: none;
 }
-
+.test {
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 10px;
+}
 @media screen and (max-width: 1200px) {
   .banner1 h2 {
     font-size: 40px;
@@ -140,7 +165,7 @@
     color: black;
   }
   .dishes h3 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .dishes span del {
     font-family: 14px;
@@ -164,6 +189,18 @@
     height: 132px;
   }
   .sales {
-    visibility: hidden;
+    width: 52px;
+    height: 23px;
+    border-radius: 0px 8px 0px 10px;
+  }
+  .sales p {
+    color: #fff;
+    text-align: center;
+  }
+  .test span {
+    font-size: 14px;
+  }
+  .test p {
+    margin-top: 0%;
   }
 }
