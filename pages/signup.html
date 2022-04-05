@@ -20,61 +20,54 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo03"
-            aria-controls="navbarTogglerDemo03"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="#"
-            ><img src="/images/icon/iamage.svg" alt="logo" /> Food delivery</a
-          >
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-           
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >НҮҮР</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">ХООЛНЫ ЦЭС</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">ХҮРГЭЛТИЙН БҮС</a>
-                </li>
-              </ul>
-            </ul>
-              <div class="login d-lg-flex mt-sm-2 mt-lg-0 ms-sm-0 ms-md-0 ms-lg-4">
-                <form class="d-flex me-sm-0 me-md-"> 
-                  <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                />
-              </form>
-                <div class="basket ms-sm-0">
-                  <img src="/images/icon/basket.svg" alt="basket"/><a href="#"
-                    >сагс</a
-                  >
-                </div>
-                <div class="user ms-sm-0 ms-md-0 ms-lg-4 mt-sm-3 mt-md-3 mt-lg-0">
-                  <img src="/images/icon/user.svg" alt="user"/><a href="#"
-                    >нэвтрэх</a
-                  >
+      <div class="row row-cols-3 row-cols-md-4">
+        <nav class="navbar navbar-expand-lg">
+          <div class="col-logo-bar">
+            <div class="container">
+              <div class="col-toggler">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarTogglerDemo01"
+                  aria-controls="navbarTogglerDemo01"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <img src="/images/icon/navbar.svg" alt="" />
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >нүүр</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >хоолны цэс</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >хүргэлтийн бүс</a
+                      >
+                    </li>
+                  </ul>
                 </div>
               </div>
-            
+            </div>
           </div>
+        </nav>
+        <div class="col-logo d-flex p-3">
+          <img src="/images/icon/iamage.svg" alt="" />
+          <a href="#">Food delivery</a>
         </div>
-      </nav>
+        <div class="col-login-bar p-4">
+          <img src="/images/icon/search.svg" alt="searchbar" />
+          <img src="/images/icon/user.svg" alt="user" />
+        </div>
+      </div>
     </header>
   </body>
 </html>

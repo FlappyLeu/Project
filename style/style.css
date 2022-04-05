@@ -4,6 +4,7 @@
 .contents {
   max-width: 1500px;
   margin: auto;
+  transition: margin;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -11,6 +12,7 @@
   .contents {
     max-width: 850px;
     margin: auto;
+    transition: margin;
     padding-left: 10px;
     padding-right: 10px;
   }

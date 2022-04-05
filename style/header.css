@@ -67,7 +67,7 @@ header p {
   color: #f17228;
   font-weight: 700;
 }
-#search {
+.search input {
   background-image: url(/images/icon/se.svg);
   padding: 5px;
   background-repeat: no-repeat;
@@ -93,8 +93,22 @@ header p {
     margin-left: 20px;
     display: block;
   }
-  #search {
-    display: none;
+  .search input {
+    background-image: url(/images/icon/se.svg);
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-position: 3% 50%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    width: 10px;
+    padding-left: 20px;
+    transition: width 1s;
+  }
+  .search input:focus {
+    width: 100%;
+    transition: width 1s;
+    border: #fbc5a6 solid;
   }
   .btns {
     visibility: hidden;
