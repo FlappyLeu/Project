@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/style/signup.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -20,6 +26,7 @@
   </head>
   <body>
     <header>
+      <!-- Main header section -->
       <div class="row row-cols-3 row-cols-md-4">
         <nav class="navbar navbar-expand-lg">
           <div class="col-logo-bar">
@@ -69,5 +76,112 @@
         </div>
       </div>
     </header>
+    <!-- Header end here  -->
+
+    <!-- Slider section begin -->
+    <div class="col-slider">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/images/background/sliderBack.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">
+              <div class="front-area d-flex">
+                <img src="/images/foodbig.png" class="food" alt="food" />
+                <div class="text">
+                  <h5>Mstars Food delivery</h5>
+                  <hr class="hr d-none b-md-block" />
+                  <p>Хосгүй амтыг хормын дотор хүргэж өгнө</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide carousel-item">
+            <img src="/images/icon/slide3.png" class="d-block w-100" />
+            <div class="carousel-caption">
+              <span>Сэт хоол тун удахгүй</span>
+            </div>
+          </div>
+          <div class="slide carousel-item">
+            <img src="/images/icon/slide2.png" class="d-block w-100" />
+            <div class="carousel-caption">
+              <span>Тун удахгүй...</span>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="col-frame container">
+      <div class="frame-outer pt-3">
+        <div class="frame-delvr d-flex pt-4">
+          <img src="/images/icon/tsag.png" alt="time" />
+          <div>
+            <h2>Шуурхай хүргэлт</h2>
+            <p>30 минутанд таны гарт</p>
+          </div>
+        </div>
+        <div class="frame-delvr d-flex pt-4">
+          <img src="/images/icon/hool.png" alt="food" />
+          <div>
+            <h2>Эрүүл баталгаат орц</h2>
+            <p>хамгийн чанартайг танд</p>
+          </div>
+        </div>
+        <div class="frame-delvr d-flex pt-4">
+          <img src="/images/icon/nom.png" alt="" />
+          <div>
+            <h2>Өргөн сонголт</h2>
+            <p>Хамгийн онцгойг танд</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

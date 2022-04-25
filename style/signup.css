@@ -1,4 +1,7 @@
 /* Mobile version */
+
+/* Mobile version's header section */
+
 .col-toggler a {
   color: #f17228;
   text-transform: uppercase !important;
@@ -31,6 +34,93 @@
 }
 .col-login-bar img {
   padding: 6%;
+}
+/* Mobile version's header section end here */
+
+/* Mobile version's here slider section begin! */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+
+.carousel-inner hr {
+  color: #f17228;
+  width: 383px;
+  height: 0px;
+}
+.carousel-inner .carousel-caption h5 {
+  text-align: right !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #f17228 !important;
+  line-height: 26.5px;
+}
+.carousel-inner .carousel-caption span {
+  color: #fff !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  display: flex !important;
+  text-align: right !important;
+  flex-direction: row-reverse !important;
+  margin-left: 40% !important;
+  margin-bottom: 30% !important;
+}
+
+.carousel-inner .carousel-caption p {
+  font-family: "Comfortaa", cursive !important;
+  font-size: 12px;
+  font-weight: 700;
+  color: #4d2000 !important;
+}
+.carousel-caption p {
+  text-align: right !important;
+}
+
+.carousel-inner img {
+  width: 375px;
+  height: 250px;
+}
+.carousel-inner .front-area img {
+  width: 130px;
+  height: 140px;
+}
+/* Mobile version's here slider section end! */
+
+/* Mobile version's frame section begin here! */
+.col-frame {
+  background-image: url(/images/background/frameback.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 240px;
+  width: 375px;
+}
+.frame-delvr h2,
+p {
+  line-height: 2;
+}
+.frame-delvr {
+  margin-left: 12%;
+}
+.frame-delvr h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  height: 20px;
+  width: 162px;
+  padding-left: 8%;
+}
+.frame-delvr p {
+  font-family: "Poppins", sans-serif;
+  color: #76767d !important;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 8%;
+}
+.frame-delvr img {
+  width: 40px;
+  height: 40px;
 }
 /* Tablet version */
 /* Desktop version */
